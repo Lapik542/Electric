@@ -1,0 +1,201 @@
+.feedback-section {
+  background: url("../image/emmanuel-ikwuegbu-unsplash.png"),
+    lightgray 100% / cover no-repeat;
+  height: 400px;
+  flex-shrink: 0;
+  margin-top: 200px;
+}
+
+.feedback {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-feedback {
+  color: #fff;
+  color: color(display-p3 1 1 1);
+  text-align: center;
+  font-family: "Neue Machina";
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: capitalize;
+}
+
+.feedback-buttons {
+  display: flex;
+  gap: 45px;
+  margin-top: 32px;
+}
+
+.feedback-btn-view {
+  color: #fff;
+  color: color(display-p3 1 1 1);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  display: inline-flex;
+  padding: 10px 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 2px;
+  background: #ff8300;
+  background: color(display-p3 0.9373 0.5412 0.1294);
+}
+
+.feedback-btn-write {
+  color: #fff;
+  color: color(display-p3 1 1 1);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  display: inline-flex;
+  padding: 10px 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 2px;
+  background: #ff8300;
+  background: color(display-p3 0.9373 0.5412 0.1294);
+}
+
+.icon-rectangle-1 {
+  margin-top: 31px;
+}
+
+.svg-icon-group-restangle {
+  margin-top: -88px;
+  margin-left: 30px;
+}
+
+.feedback-people-section {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.feedback-people {
+  margin: 0 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feedback-people-list {
+  margin-left: -820px;
+}
+
+.feedback-photo-people-list {
+  display: flex;
+  gap: 24px;
+  align-items: flex-end;
+}
+
+.list-people-feedback-card {
+  display: flex;
+  gap: 46px;
+}
+
+.card-people-feedback {
+  margin-top: 22px;
+  display: flex;
+  width: 390px;
+  padding: 40px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 8px;
+  border: 2px solid #ff8300;
+}
+
+.name-feedback-card {
+  color: #000;
+  color: color(display-p3 0 0 0);
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+  margin-top: 16px 0;
+}
+
+.list-feedback-card-info {
+  display: flex;
+  gap: 8px;
+}
+
+.list-feedback-card-info svg {
+  fill: #ef8a21;
+  width: 25px;
+  height: 25px;
+}
+
+.info-feedback-people {
+  color: #000;
+  color: color(display-p3 0 0 0);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+  width: 330px;
+}
+
+.list-icon-arrow-solid {
+  display: flex;
+  justify-content: center;
+  margin-top: 22px;
+  gap: 16px;
+}
+
+.container-arrow-icon-svg {
+  width: 15px;
+  height: 20px;
+  width: 54px;
+  height: 54px;
+  padding: 18px 18px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 999px;
+  background: #d9d9d9;
+  background: color(display-p3 0.851 0.851 0.851);
+}
+
+.feedback-btn {
+  margin-top: 35px;
+  color: #fff;
+  color: color(display-p3 1 1 1);
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 50px; /* 200% */
+  text-transform: capitalize;
+  display: flex;
+  width: 267px;
+  padding: 10px 55px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 2px;
+  background: #ff8300;
+  background: color(display-p3 0.9373 0.5412 0.1294);
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1599px) {
+   .card-people-feedback {
+      width: 394px;
+   }
+}

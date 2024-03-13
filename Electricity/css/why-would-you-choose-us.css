@@ -1,0 +1,144 @@
+.why-would-you-choose-us-section {
+  margin-top: 405px;
+  display: flex;
+}
+
+.why-would-you-choose-us {
+  margin: 0 auto;
+}
+
+.title-why-would-you-choose-us {
+  color: #000;
+  color: color(display-p3 0 0 0);
+  font-family: "Neue Machina";
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 30px;
+}
+
+.text-why-would-you-choose-us {
+  width: 557px;
+  color: #000;
+  color: color(display-p3 0 0 0);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.title-text-team-photo {
+  display: flex;
+  align-items: center;
+  gap: 800px;
+}
+
+.team-photo-why-would-you-choose-us {
+  width: 150px;
+  height: 86px;
+  flex-shrink: 0;
+  background: #d9d9d9;
+  background: color(display-p3 0.851 0.851 0.851);
+}
+
+.team-photo-list {
+  display: flex;
+  gap: 15px;
+  margin-top: 50px;
+}
+
+.list-team-photo-bottom {
+  margin-left: -165px;
+  margin-top: 15px;
+}
+
+.line-why-would-you-choose-us {
+  margin-top: 95px;
+  width: 1720px;
+  height: 1px;
+  flex-shrink: 0;
+  background: #d9d9d9;
+  background: color(display-p3 0.851 0.851 0.851);
+}
+
+.svg-icon-circle-arrow-up-solid {
+  fill: #ef8a21;
+}
+
+.list-why-would-you-choose-us {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  gap: 200px;
+}
+
+.list-svg-why-would-you-choose-us {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin-bottom: 18px;
+}
+
+.title-list-svg-why-would-you-choose-us {
+  color: #000;
+  color: color(display-p3 0 0 0);
+  font-family: "Neue Machina";
+  font-size: 32.138px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.list-why-would-you-choose-us-title li {
+  position: relative;
+  list-style-type: none;
+}
+
+.list-why-would-you-choose-us-title li::before {
+  content: "•";
+  position: absolute;
+  left: -14px;
+}
+
+.list-svg-why-would-you-choose-us-arrow {
+  display: flex;
+  flex-direction: column;
+}
+
+.list-why-would-you-choose-us-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 26px;
+}
+
+.text-list-why-would-you-choose-us {
+  color: #000;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1599px) {
+  .title-text-team-photo {
+    gap: 270px;
+  }
+  .line-why-would-you-choose-us {
+    width: 1240px;
+  }
+  .list-why-would-you-choose-us {
+    gap: 140px;
+  }
+  .list-team-photo-bottom {
+    margin-left: -100px;
+  }
+  .list-photo-team img {
+    width: 186px;
+    height: 86px;
+    flex-shrink: 0;
+  }
+}

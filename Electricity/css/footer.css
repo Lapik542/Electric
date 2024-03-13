@@ -1,0 +1,220 @@
+.footer-section {
+  display: flex;
+  justify-content: center;
+  height: 549px;
+  flex-shrink: 0;
+  background: #000;
+  background: color(display-p3 0 0 0);
+}
+
+.footer {
+  margin-top: 106px;
+}
+
+.main-list-footer {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.footer-svg-icon-list-number-phone-email {
+  margin-right: 240px;
+}
+
+.footer-phone {
+  font-weight: 600;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 150%; /* 24px */
+  margin: 10px 0;
+}
+
+.info-footer-svg-icon {
+  margin-bottom: 4px;
+}
+
+.footer-navigation-list {
+  display: flex;
+  flex-direction: column;
+  margin-right: 170px;
+  gap: 5px;
+}
+
+.footer-title-navigation {
+  color: #fff;
+  color: color(display-p3 1 1 1);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 15px;
+}
+
+.footer-info-navigation-title {
+  color: #fff;
+  color: color(display-p3 1 1 1);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-btn-info-navigation-title {
+  margin-top: 10px;
+  color: #fff;
+  color: color(display-p3 1 1 1);
+  font-family: "Neue Machina";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  display: inline-flex;
+  padding: 10px 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 2px;
+  background: #ff8300;
+  background: color(display-p3 0.9373 0.5412 0.1294);
+}
+
+.footer-list-our-services {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-right: 300px;
+}
+
+.footer-title-list-our-services {
+  color: #fff;
+  color: color(display-p3 1 1 1);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+.footer-info-list-our-services {
+  color: #fff;
+  color: color(display-p3 1 1 1);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-list-yanbuild {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  color: #fff;
+  color: color(display-p3 1 1 1);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-title-list-yanbuild {
+  color: #fff;
+  color: color(display-p3 1 1 1);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.footer-list-serving {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #fff;
+  color: color(display-p3 1 1 1);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-list-greater {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #fff;
+  color: color(display-p3 1 1 1);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-list-greater-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.footer-block-text-button {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.footer-info-text-revy {
+  margin: 0 600px;
+  color: #fff;
+  color: color(display-p3 1 1 1);
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-info-button-revy {
+  margin-top: 100px;
+  display: flex;
+  padding: 25px 27px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 999px;
+  background: #ff8300;
+  background: color(display-p3 0.9373 0.5412 0.1294);
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1599px) {
+  .main-list-footer {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-svg-icon-list-number-phone-email {
+    margin-right: 152px;
+  }
+  .footer-navigation-list {
+    margin-right: 136px;
+  }
+  .footer-list-our-services {
+    margin-right: 120px;
+  }
+  .footer-info-button-revy {
+    margin-right: 100px;
+    margin-left: 30px;
+  }
+  .footer-info-text-revy {
+    margin-right: 334px;
+    margin-left: 540px;
+    margin-bottom: 10px;
+  }
+}

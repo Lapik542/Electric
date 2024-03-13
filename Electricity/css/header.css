@@ -1,0 +1,140 @@
+.header {
+  background-color: black;
+  height: 90px;
+}
+
+.header-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-svg-icon {
+  margin-right: 162px;
+  margin-top: 10px;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.list-address {
+  display: flex;
+}
+
+.btn-header {
+  margin-right: 162px;
+  display: flex;
+  padding: 10px 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 2px;
+  background: #ff8300;
+  background: color(display-p3 0.9373 0.5412 0.1294);
+  color: #fff;
+  color: color(display-p3 1 1 1);
+  font-family: "Neue Machina";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+}
+
+.list-address {
+  gap: 40px;
+  align-items: center;
+}
+
+.link-item {
+  color: #fff;
+  color: color(display-p3 1 1 1);
+  font-family: "Neue Machina";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.address-link {
+  margin-left: 10px;
+  color: #fff;
+  color: color(display-p3 1 1 1);
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.list-address-link {
+  display: flex;
+  align-items: center;
+}
+
+.btn-address {
+  width: 147px;
+  margin-left: 40px;
+  padding: 10px 35px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 2px;
+  background: #ff8300;
+  background: color(display-p3 0.9373 0.5412 0.1294);
+  color: #fff;
+  color: color(display-p3 1 1 1);
+  font-family: "Neue Machina";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1599px) {
+  .header-svg-icon {
+    margin-right: 70px;
+  }
+
+  .list {
+    gap: 30px;
+  }
+
+  .btn-header {
+    display: flex;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-right: 70px;
+  }
+
+  .list-address {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+    margin-right: 40px;
+  }
+
+  .btn-address {
+    display: flex;
+    width: 122px;
+    padding: 10px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+}
