@@ -19,7 +19,7 @@
 }
 
 .text-why-would-you-choose-us {
-  width: 557px;
+  width: 655px;
   color: #000;
   color: color(display-p3 0 0 0);
   font-family: Inter;
@@ -32,12 +32,31 @@
 .title-text-team-photo {
   display: flex;
   align-items: center;
-  gap: 800px;
+}
+
+.why-would-you-choose-us-photo {
+  position: relative;
+  margin-left: 500px;
+}
+
+.why-would-you-choose-us-photo-team {
+  position: absolute;
+  bottom: -130px;
+  left: 0;
+}
+
+.why-would-you-choose-us-photo-car {
+  position: absolute;
+  right: -30px;
+  top: -10px;
 }
 
 .team-photo-why-would-you-choose-us {
-  width: 150px;
-  height: 86px;
+  border-radius: 12px;
+background: url(<path-to-image>) lightgray 0px -137.981px / 100% 152.866% no-repeat;
+}
+
+.team-photo-why-would-you-choose-us {
   flex-shrink: 0;
   background: #d9d9d9;
   background: color(display-p3 0.851 0.851 0.851);
@@ -130,21 +149,37 @@
 }
 
 @media screen and (min-width: 1440px) and (max-width: 1599px) {
-  .title-text-team-photo {
-    gap: 270px;
-  }
   .line-why-would-you-choose-us {
     width: 1240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-  .list-why-would-you-choose-us {
-    gap: 140px;
+  .text-why-would-you-choose-us {
+    width: 557px;
   }
-  .list-team-photo-bottom {
-    margin-left: -100px;
+  .why-would-you-choose-us-photo {
+    margin-left: 600px;
   }
-  .list-photo-team img {
-    width: 186px;
-    height: 86px;
-    flex-shrink: 0;
+  .car-photo {
+    width: 394px;
+    height: 159px;
+  }
+  .team-photo {
+    width: 360px;
+    height: 177px;
+  }
+  .why-would-you-choose-us-photo-car {
+    right: 100px;
+    bottom: 100px;
+  }
+  .why-would-you-choose-us-photo-team {
+    left: -200px;
+    top: -140px;
+  }
+  .line-why-would-you-choose-us {
+    display: flex;
+    align-items: center;
+    width: 1380px;
   }
 }
