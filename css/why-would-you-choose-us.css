@@ -81,6 +81,7 @@
   margin-bottom: 18px;
 }
 
+
 .title-list-svg-why-would-you-choose-us {
   color: #000;
   color: color(display-p3 0 0 0);
@@ -89,6 +90,11 @@
   font-style: normal;
   font-weight: 800;
   line-height: normal;
+}
+
+.list-why-would-you-choose-us-title {
+  display: flex;
+  gap: 16px;
 }
 
 .list-why-would-you-choose-us-title li {
