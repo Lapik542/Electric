@@ -64,6 +64,7 @@
 
 .text-svg {
   color: #fff;
+  text-transform: uppercase;
   color: color(display-p3 1 1 1);
   font-family: Inter;
   font-size: 20px;

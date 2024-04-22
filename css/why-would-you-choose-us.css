@@ -1,9 +1,16 @@
 .why-would-you-choose-us-section {
-  margin-top: 405px;
+  margin-top: 105px;
   display: flex;
 }
 
 .why-would-you-choose-us {
+  margin: 0 auto;
+}
+
+.title-text-why-would-you-choose-us {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
   margin: 0 auto;
 }
 
@@ -19,14 +26,15 @@
 }
 
 .text-why-would-you-choose-us {
-  width: 557px;
+  width: 760.375px;
   color: #000;
   color: color(display-p3 0 0 0);
   font-family: Inter;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
-  line-height: normal;
+  line-height: 1.3;
+  text-align: center;
 }
 
 .title-text-team-photo {
@@ -91,27 +99,17 @@
   line-height: normal;
 }
 
-.list-why-would-you-choose-us-title li {
-  position: relative;
-  list-style-type: none;
-}
-
-.list-why-would-you-choose-us-title li::before {
-  content: "•";
-  position: absolute;
-  left: -14px;
-}
-
 .list-svg-why-would-you-choose-us-arrow {
+  align-items: center;
   display: flex;
   flex-direction: column;
 }
 
 .list-why-would-you-choose-us-title {
   display: flex;
+  gap: 10px;
   flex-direction: column;
   justify-content: center;
-  margin-left: 26px;
 }
 
 .text-list-why-would-you-choose-us {
