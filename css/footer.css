@@ -1,7 +1,7 @@
 .footer-section {
   display: flex;
   justify-content: center;
-  height: 549px;
+  height: 509px;
   flex-shrink: 0;
   background: #000;
   background: color(display-p3 0 0 0);
@@ -99,50 +99,18 @@
   margin-bottom: 10px;
 }
 
-.footer-info-list-our-services {
-  color: #fff;
-  color: color(display-p3 1 1 1);
-  font-family: Inter;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
-.footer-list-yanbuild {
+.footer-project-gallery-list-inst-yan {
   display: flex;
-  flex-direction: column;
-  gap: 15px;
-  color: #fff;
-  color: color(display-p3 1 1 1);
-  font-family: Inter;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  fill: #fff;
+  gap: 14px;
 }
 
-.footer-title-list-yanbuild {
-  color: #fff;
-  color: color(display-p3 1 1 1);
-  font-family: Inter;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-}
-
-.footer-list-serving {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-  color: #fff;
-  color: color(display-p3 1 1 1);
-  font-family: Inter;
-  font-size: 15px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
+.bold-project-gallery-list-yan-name {
+  font-style: italic;
+  font-weight: 900;
 }
 
 .footer-list-greater {
@@ -156,12 +124,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-}
-
-.footer-list-greater-contact {
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
 }
 
 .footer-block-text-button {

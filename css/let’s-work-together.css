@@ -2,4 +2,98 @@
   margin: 150px 100px;
 }
 
+.let’s-work-together-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 60px;
+  margin-top: 62px;
+}
 
+.let’s-work-together-container {
+  display: flex;
+}
+
+.let’s-work-together-title {
+  color: #000;
+  color: color(display-p3 0 0 0);
+  font-family: "Neue Machina";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 25px;
+}
+
+.let’s-work-together-text {
+  color: #000;
+  color: color(display-p3 0 0 0);
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  width: 782px;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.let’s-work-together-button {
+  width: 184px;
+  color: var(--white, #fff);
+  color: var(--white, color(display-p3 1 1 1));
+  font-family: "Neue Machina";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  display: inline-flex;
+  padding: var(--25, 10px) 35px;
+  justify-content: center;
+  align-items: center;
+  gap: var(--25, 10px);
+  border-radius: 2px;
+  background: #ff8300;
+  background: color(display-p3 0.9373 0.5412 0.1294);
+}
+
+.let’s-work-together-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.let’s-work-together-icon {
+  fill: #fff;
+  color: var(--white, #fff);
+  color: var(--white, color(display-p3 1 1 1));
+  font-family: Inter;
+  font-size: 18.75px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 37.5px; /* 200% */
+  text-transform: capitalize;
+  display: inline-flex;
+  padding: 7.5px 41.25px;
+  justify-content: center;
+  align-items: center;
+  gap: 7.5px;
+  border-radius: 1.5px;
+  background: #ff8300;
+  background: color(display-p3 0.9373 0.5412 0.1294);
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1599px) {
+  .let’s-work-together-text {
+    font-size: 15px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .let’s-work-together-img {
+    width: 654px;
+    height: 345.75px;
+  }
+  .let’s-work-together-info {
+    margin-top: 10px;
+  }
+}

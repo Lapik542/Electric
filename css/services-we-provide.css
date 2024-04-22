@@ -1,5 +1,5 @@
 .services-we-provide-section {
-  margin-top: 105px;
+  margin-top: 155px;
 }
 
 .services-we-provide {
@@ -158,9 +158,6 @@
 }
 
 @media screen and (min-width: 1440px) and (max-width: 1599px) {
-  .title-text-services-we-provide {
-    margin-left: -160px;
-  }
   .services-we-provide-list-svg-icon {
     gap: 130px;
   }
