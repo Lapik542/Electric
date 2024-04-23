@@ -156,6 +156,26 @@
   background: color(display-p3 0.9373 0.5412 0.1294);
 }
 
+.footer-email {
+  color: #fff;
+  color: color(display-p3 1 1 1);
+  font-family: Inter;
+  font-style: normal;
+  font-size: 12.375px;
+  font-weight: normal;
+  line-height: normal;
+}
+
+.footer-phone {
+  color: #fff;
+  color: color(display-p3 1 1 1);
+  font-family: Inter;
+  font-style: normal;
+  font-size: 12.375px;
+  font-weight: 900;
+  line-height: normal;
+}
+
 @media screen and (min-width: 1440px) and (max-width: 1599px) {
   .main-list-footer {
     display: flex;
@@ -178,5 +198,38 @@
     margin-right: 334px;
     margin-left: 540px;
     margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+  .footer-svg-icon-list-number-phone-email {
+    margin-right: 140px;
+  }
+  .footer-navigation-list {
+    margin-right: 130px;
+  }
+  .footer-list-our-services {
+    margin-right: 70px;
+  }
+  .footer-info-text-revy {
+    margin-left: 420px;
+    margin-right: 0;
+  }
+  .footer-info-button-revy {
+    margin-left: 280px;
+  }
+  .footer-svg-icon-list-number-phone-email {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .footer-project-gallery-list-yan {
+    fill: #fff;
+  }
+  .footer-project-gallery-list-inst-yan {
+    color: #fff;
+  }
+  .footer-info-button-revy {
+   padding: 14px 18px;
   }
 }

@@ -140,3 +140,22 @@
     flex-shrink: 0;
   }
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+  .line-why-would-you-choose-us {
+    width: 1075px;
+    height: 0.625px;
+  }
+  .title-why-would-you-choose-us {
+    font-size: 32.5px;
+    margin-top: 74px;
+  }
+  .text-why-would-you-choose-us,
+  .text-list-why-would-you-choose-us {
+    font-size: 12.5px;
+  }
+  .svg-icon-circle-arrow-up-solid {
+    width: 33px;
+    height: 33px;
+  }
+}

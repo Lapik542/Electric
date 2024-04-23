@@ -173,3 +173,35 @@
     padding: 10px 45px;
   }
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+  .title-services-we-provide {
+    font-size: 32.5px;
+    margin-bottom: 12px;
+  }
+  .text-services-we-provide {
+    font-size: 12.5px;
+  }
+  .title-list-svg-icon {
+    font-size: 20px;
+  }
+  .text-list-svg-icon {
+    font-size: 12.5px;
+  }
+  .installation-list-text-svg-icon {
+    margin-right: 60px;
+  }
+  .line-services-we-provide {
+    width: 1075px;
+  }
+  .button-services-we-provide-get,
+  .button-services-we-provide-contact {
+    font-size: 15.625px;
+    padding: 6.25px 34.375px;
+  }
+  .services-we-provide-svg-icon {
+    width: 36px;
+    height: 36px;
+    margin-bottom: 30px;
+  }
+}

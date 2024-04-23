@@ -66,3 +66,24 @@
   background: #000;
   background: color(display-p3 0 0 0);
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+  .request-a-free-quote-section {
+    height: 260px;
+  }
+  .request-a-free-quote-section {
+    margin-top: 0;
+  }
+  .title-request-a-free-quote {
+    font-size: 32.5px;
+  }
+  .text-request-a-free-quote {
+    font-size: 12.5px;
+    width: 893.75px;
+    margin-bottom: 34px;
+  }
+  .button-request-a-free-quote {
+    font-size: 15.625px;
+    padding: 6.25px 34.375px;
+  }
+}

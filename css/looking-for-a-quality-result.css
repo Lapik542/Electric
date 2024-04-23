@@ -82,3 +82,29 @@
     margin-top: 210px;
   }
 }
+
+@media screen and (min-width: 1200px) and (max-width: 1439px) {
+   .looking-for-a-quality-result-section {
+      height: 250px;
+      width: 100%;
+      background: url("../image/ernys-unsplash.png") 50% / cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+  .title-looking-for-a-quality-result {
+   margin: 0;
+   padding: 0;
+    font-size: 30px;
+  }
+  .text-looking-for-a-quality-result {
+    font-size: 12.5px;
+    width: 742.5px;
+  }
+  .looking-for-a-quality-result-btn {
+   margin-top: 40px;
+    padding: 6.25px 34.375px;
+    font-size: 15.625px;
+    margin-left: 24px;
+  }
+}
