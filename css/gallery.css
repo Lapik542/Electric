@@ -1,6 +1,5 @@
 .project-gallery-section {
   margin-top: 150px;
-  margin: 0 100px;
   display: flex;
   justify-content: center;
   margin: 0 auto;
@@ -154,10 +153,68 @@
   margin-left: 320px;
 }
 
-@media screen and (min-width: 1440px) and (max-width: 1599px) {
-  .project-gallery {
-    margin-left: 40px;
+@media screen and (min-width: 1600px) and (max-width: 1720px) {
+  .list-gallery-top img {
+    width: 220.488px;
+    height: 220.488px;
+    flex-shrink: 0;
   }
+  .list-gallery-top {
+    gap: 16px;
+  }
+  .list-gallery-top {
+    gap: 16px;
+  }
+  .list-gallery-item img {
+    width: 220.488px;
+    height: 220.488px;
+    flex-shrink: 0;
+  }
+  .list-gallery-item {
+    gap: 16px;
+  }
+  .list-gallery-item {
+    margin-bottom: 20px;
+    margin-left: 488px;
+  }
+  .list-gallery-item li:last-child {
+    margin-left: 240px;
+  }
+  .gallery-img img {
+    width: 220.488px;
+    height: 220.488px;
+    flex-shrink: 0;
+  }
+  .gallery-img {
+    gap: 16px;
+    margin-top: 16px;
+    margin-left: 16px;
+  }
+  .gallery-image-bottom img {
+    width: 220.488px;
+    height: 220.488px;
+    flex-shrink: 0;
+  }
+  .gallery-image-bottom {
+    margin-left: 14px;
+    gap: 16px;
+  }
+  .gallery-item-text {
+    gap: 170px;
+  }
+  .gallery-text {
+    width: 397px;
+  }
+  .gallery-text-bottom {
+    margin-left: 34px;
+  }
+  .button-gallery-text {
+    margin-left: 160px;
+    margin-top: 88px;
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1599px) {
   .list-gallery-top img {
     width: 192.488px;
     height: 192.488px;

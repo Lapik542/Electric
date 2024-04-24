@@ -121,6 +121,12 @@
   line-height: normal;
 }
 
+@media screen and (min-width: 1600px) and (max-width: 1720px) {
+  .line-why-would-you-choose-us {
+    width: 1600px;
+  }
+}
+
 @media screen and (min-width: 1440px) and (max-width: 1599px) {
   .title-text-team-photo {
     gap: 270px;
