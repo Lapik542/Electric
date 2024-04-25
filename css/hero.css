@@ -148,3 +148,22 @@
    padding: 14px 16px;
   }
 }
+
+@media screen and (min-width: 393px) and (max-width: 799px) {
+  .hero {
+    height: 600px;
+  }
+  .section-hero {
+    margin: 0 auto;
+  }
+  .hero-text {
+    font-size: 40px;
+    padding: 0;
+    padding-top: 130px;
+  }
+  .btn-hero {
+    margin: 0 auto;
+    width: 361px;
+    padding: 20px 21.875px;
+  }
+}
