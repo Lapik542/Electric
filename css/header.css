@@ -59,6 +59,10 @@
   align-items: center;
 }
 
+.burger-menu {
+  display: none;
+}
+
 .link-item {
   color: #fff;
   color: color(display-p3 1 1 1);
@@ -78,6 +82,10 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
+}
+
+.address-link-phone {
+  font-weight: 800;
 }
 
 .list-address-link {
@@ -166,5 +174,40 @@
   }
   .btn-header {
     margin-right: 40px;
+  }
+}
+
+@media screen and (min-width: 393px) and (max-width: 799px) {
+  .header {
+    padding: 0 16px;
+  }
+  .burger-menu {
+    display: flex;
+    align-items: center;
+  }
+  .nav-item {
+    display: none;
+  }
+  .address-link {
+    font-size: 12px;
+  }
+  .list-address {
+    display: flex;
+    flex-direction: column;
+  }
+  .header-svg-icon {
+    width: 62px;
+    height: 43px;
+  }
+  .btn-address {
+    display: none;
+  }
+  .list-address {
+    align-items: start;
+    gap: 10px;
+    margin-right: 60px;
+  }
+  .header-svg-icon {
+    margin-right: 46px;
   }
 }
