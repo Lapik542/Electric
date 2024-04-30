@@ -94,7 +94,6 @@
 }
 
 .btn-address {
-  width: 147px;
   margin-left: 40px;
   padding: 10px 35px;
   justify-content: center;
@@ -148,7 +147,7 @@
   }
 }
 
-@media screen and (min-width: 1600px) and (max-width: 1746px) {
+@media screen and (min-width: 1600px) and (max-width: 1835px) {
   .btn-header {
     margin-right: 76px;
   }
