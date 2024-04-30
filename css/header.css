@@ -31,7 +31,7 @@
 }
 
 .btn-header {
-  margin-right: 140px;
+  margin-right: 164px;
   display: flex;
   padding: 10px 35px;
   justify-content: center;
@@ -148,7 +148,19 @@
   }
 }
 
+@media screen and (min-width: 1600px) and (max-width: 1746px) {
+  .btn-header {
+    margin-right: 76px;
+  }
+  .list {
+    gap: 30px;
+  }
+}
+
 @media screen and (min-width: 1200px) and (max-width: 1439px) {
+  .header {
+    padding: 0;
+  }
   .link-item,
   .address-link,
   .btn-header,
@@ -166,14 +178,14 @@
     height: 37.5px;
   }
   .btn-address {
-    padding: 6.25px 21.875px;
-    margin-left: 25px;
+    padding: 6.25px 14.875px;
+    margin-left: 15px;
   }
   .btn-header {
     padding: 6.25px 21.875px;
   }
   .btn-header {
-    margin-right: 40px;
+    margin-right: 26px;
   }
 }
 

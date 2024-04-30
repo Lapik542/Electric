@@ -158,6 +158,12 @@
   border: 1px solid color(display-p3 0.9373 0.5412 0.1294);
 }
 
+@media screen and (min-width: 1600px) and (max-width: 1720px) {
+  .line-services-we-provide {
+    width: 1600px;
+  }
+}
+
 @media screen and (min-width: 1440px) and (max-width: 1599px) {
   .services-we-provide-list-svg-icon {
     gap: 130px;

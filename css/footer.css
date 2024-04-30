@@ -1,14 +1,14 @@
 .footer-section {
   display: flex;
   justify-content: center;
-  height: 509px;
+  height: 549px;
   flex-shrink: 0;
   background: #000;
   background: color(display-p3 0 0 0);
 }
 
 .footer {
-  margin-top: 106px;
+  margin-top: 100px;
 }
 
 .main-list-footer {
@@ -129,12 +129,13 @@
 
 .footer-block-text-button {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: flex-end;
+  margin-top: 160px;
 }
 
 .footer-info-text-revy {
-  margin: 0 600px;
+  margin: 0 auto;
   color: #fff;
   color: color(display-p3 1 1 1);
   font-family: Inter;
@@ -145,7 +146,6 @@
 }
 
 .footer-info-button-revy {
-  margin-top: 100px;
   display: flex;
   padding: 25px 27px;
   justify-content: center;
@@ -231,6 +231,6 @@
     color: #fff;
   }
   .footer-info-button-revy {
-   padding: 14px 18px;
+    padding: 14px 18px;
   }
 }
