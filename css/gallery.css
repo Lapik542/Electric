@@ -52,7 +52,6 @@
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  width: 557px;
   margin-bottom: 25px;
 }
 
@@ -60,7 +59,7 @@
   color: #000;
   color: color(display-p3 0 0 0);
   font-family: Inter;
-  font-size: 13px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -69,7 +68,7 @@
 
 .gallery-item-text {
   display: flex;
-  gap: 314px;
+  gap: 414px;
 }
 
 .list-gallery-top {
@@ -78,7 +77,7 @@
 }
 
 .list-gallery-item {
-  margin-top: 24px;
+  margin-top: -48px;
   display: flex;
   gap: 24px;
   margin-left: 580px;
@@ -100,17 +99,6 @@
   margin-top: 24px;
 }
 
-.gallery-text-bottom {
-  width: 247.5px;
-  color: #000;
-  color: color(display-p3 0 0 0);
-  font-family: Inter;
-  font-size: 13px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
 .gallery-text-image-button {
   display: flex;
 }
@@ -121,12 +109,12 @@
 
 .gallery-text-bottom {
   margin-left: 170px;
-  margin-top: -100px;
+  margin-top: -200px;
   width: 412px;
   color: #000;
   color: color(display-p3 0 0 0);
   font-family: Inter;
-  font-size: 13px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -172,6 +160,7 @@
   }
   .list-gallery-item {
     gap: 16px;
+    margin-top: -80px;
   }
   .list-gallery-item {
     margin-bottom: 20px;
@@ -200,7 +189,7 @@
     gap: 16px;
   }
   .gallery-item-text {
-    gap: 170px;
+    gap: 270px;
   }
   .gallery-text {
     width: 397px;
@@ -235,7 +224,7 @@
     gap: 16px;
   }
   .list-gallery-item {
-    margin-top: -10px;
+    margin-top: -74px;
     margin-left: 418px;
   }
   .list-gallery-item li:last-child {
@@ -255,14 +244,21 @@
     height: 192.488px;
     flex-shrink: 0;
   }
+  .gallery-image-bottom {
+    gap: 16px;
+  }
   .gallery-item-text {
-    gap: 70px;
+    gap: 170px;
   }
   .gallery-text {
-    width: 397px;
+    width: 297px;
+    font-size: 15px;
   }
   .gallery-text-bottom {
-    margin-left: 22px;
+    margin-left: 100px;
+    font-size: 15px;
+    margin-top: -140px;
+    width: 309px;
   }
   .button-gallery-text {
     margin-left: 160px;
@@ -289,10 +285,11 @@
     margin-left: 0;
   }
   .gallery-item-text {
-    gap: 10px;
+    gap: 282px
   }
   .gallery-text-bottom {
     margin-left: 100px;
+    margin-top: -120px;
     width: 257.5px;
     font-size: 12.5px;
   }
@@ -320,9 +317,9 @@
   }
   .list-gallery-item {
     margin-top: 0px;
-    margin-left: 376px;
+    margin-left: 380px;
   }
   .list-gallery-item li:last-child {
-    margin-left: 192px;
+    margin-left: 188px;
   }
 }
