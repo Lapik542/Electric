@@ -83,7 +83,7 @@ h6 {
 }
 
 body {
-  background: #F3EFEA;
+  background: #f3efea;
 }
 
 /* Конец обнуления */
@@ -471,7 +471,7 @@ body {
     height: 12.5px;
   }
   .svg-hero {
-   padding: 14px 16px;
+    padding: 14px 16px;
   }
 }
 
@@ -661,6 +661,94 @@ body {
   margin-left: 320px;
 }
 
+/* MOBILE-GALLERY */
+
+.mobile-gallery {
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+.mobile-project-gallery-list-inst-yan {
+  margin-top: 150px;
+  display: flex;
+  justify-content: start;
+}
+
+.mobile-gallery-title {
+  color: #000;
+  color: color(display-p3 0 0 0);
+  font-family: "Neue Machina";
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 6px;
+}
+
+.mobile-gallery-text {
+  color: #000;
+  color: color(display-p3 0 0 0);
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 16px;
+}
+
+.mobile-gallery-p {
+  color: #000;
+  color: color(display-p3 0 0 0);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 16px;
+  width: 361px;
+}
+
+.mobile-gallery-img {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.mobile-gallery-p-img {
+  color: #000;
+  color: color(display-p3 0 0 0);
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 172px;
+}
+
+.mobile-gallery-btn {
+  color: var(--white, #fff);
+  color: var(--white, color(display-p3 1 1 1));
+  font-family: "Neue Machina";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  display: flex;
+  width: 173px;
+  padding: 20px 21.875px;
+  justify-content: center;
+  align-items: center;
+  gap: 6.25px;
+  border-radius: 1.25px;
+  background: #ff8300;
+  background: color(display-p3 0.9373 0.5412 0.1294);
+  margin-top: -80px;
+}
+
+/* MOBILE-GALLERY */
+
+/* DESKTOP-GALLERY */
+
 @media screen and (min-width: 1600px) and (max-width: 1720px) {
   .list-gallery-top img {
     width: 220.488px;
@@ -805,7 +893,7 @@ body {
     margin-left: 0;
   }
   .gallery-item-text {
-    gap: 282px
+    gap: 282px;
   }
   .gallery-text-bottom {
     margin-left: 100px;
@@ -1061,6 +1149,64 @@ body {
   }
 }
 
+@media screen and (min-width: 393px) and (max-width: 799px) {
+  .services-we-provide-section {
+    margin-top: 86px;
+  }
+  .services-we-provide {
+    padding: 0 16px;
+    justify-content: start;
+    align-items: start;
+  }
+  .title-text-services-we-provide {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin-bottom: 60px;
+  }
+  .title-services-we-provide {
+    width: 257px;
+    font-size: 40px;
+    text-align: left;
+  }
+  .text-services-we-provide {
+    width: 188px;
+    font-size: 12px;
+    text-align: left;
+    margin-top: -40px;
+    margin-left: 180px;
+  }
+  .services-we-provide-list-svg-icon {
+    flex-direction: column;
+    gap: 60px;
+  }
+  .text-list-svg-icon {
+    margin-left: 0;
+  }
+  .title-list-svg-icon {
+    font-size: 32px;
+  }
+  .text-list-svg-icon {
+    font-size: 16px;
+  }
+  .line-services-we-provide {
+    margin-top: 34px;
+  }
+  .buttons-services-we-provide {
+    gap: 14px;
+    margin-top: 34px;
+  }
+  .button-services-we-provide-get {
+    font-size: 15px;
+    width: 173px;
+    padding: 10px 12px;
+  }
+  .button-services-we-provide-contact {
+    font-size: 15px;
+    width: 173px;
+    padding: 10px 12px;
+  }
+}
 
 /* OUR GOAL */
 
@@ -1114,6 +1260,19 @@ body {
   }
   .text-our-goal {
     font-size: 12.5px;
+  }
+}
+
+@media screen and (min-width: 393px) and (max-width: 799px) {
+  .section-our-goal {
+    margin-top: 80px;
+  }
+  .title-our-goal {
+    font-size: 40px;
+  }
+  .text-our-goal {
+    font-size: 14px;
+    width: 361px;
   }
 }
 
@@ -1287,6 +1446,36 @@ body {
   }
 }
 
+@media screen and (min-width: 393px) and (max-width: 799px) {
+  .why-would-you-choose-us-section {
+    margin-top: 100px;
+  }
+  .why-would-you-choose-us {
+    padding: 0 16px;
+  }
+  .title-why-would-you-choose-us {
+    font-size: 40px;
+    width: 361px;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 1;
+  }
+  .list-why-would-you-choose-us {
+    flex-direction: column;
+    margin-top: 50px;
+    gap: 60px;
+  }
+  .text-why-would-you-choose-us {
+    font-size: 14px;
+    width: 361px;
+  }
+
+  .line-why-would-you-choose-us {
+    width: 100%;
+    margin-top: 56px;
+  }
+}
+
 /* LOOKING FOR A QUALITY RESULT */
 
 .looking-for-a-quality-result-section {
@@ -1375,17 +1564,17 @@ body {
 }
 
 @media screen and (min-width: 1200px) and (max-width: 1439px) {
-   .looking-for-a-quality-result-section {
-      height: 250px;
-      width: 100%;
-      background: url("../image/ernys-unsplash.png") 50% / cover;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-   }
+  .looking-for-a-quality-result-section {
+    height: 250px;
+    width: 100%;
+    background: url("../image/ernys-unsplash.png") 50% / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .title-looking-for-a-quality-result {
-   margin: 0;
-   padding: 0;
+    margin: 0;
+    padding: 0;
     font-size: 30px;
   }
   .text-looking-for-a-quality-result {
@@ -1393,10 +1582,30 @@ body {
     width: 742.5px;
   }
   .looking-for-a-quality-result-btn {
-   margin-top: 40px;
+    margin-top: 40px;
     padding: 6.25px 34.375px;
     font-size: 15.625px;
     margin-left: 24px;
+  }
+}
+
+@media screen and (min-width: 393px) and (max-width: 799px) {
+  .looking-for-a-quality-result-section {
+    background: url("../image/mobile-who-choose-yanbuild.png") 100% / cover;
+    height: 719px;
+    flex-direction: column;
+    padding: 0 16px;
+  }
+  .title-looking-for-a-quality-result {
+    font-size: 40px;
+    padding-top: 30px;
+  }
+  .text-looking-for-a-quality-result {
+    font-size: 14px;
+    width: 362px;
+  }
+  .looking-for-a-quality-result-btn {
+    margin-bottom: 65px;
   }
 }
 
