@@ -15,7 +15,7 @@
   </head>
   <body>
     <!-- HEADER -->
-    <header class="header">
+    <header class="header" id="header">
       <div class="container header-item">
         <img class="header-svg-icon" src="./image//logo-yanbild.png" alt="" />
         <!-- NAV -->
@@ -35,7 +35,7 @@
               <a class="link-item" href="#">Why Us</a>
             </li>
             <li class="list-item">
-              <a class="link-item" href="#">Reviews</a>
+              <a class="link-item" href="#">Write a Review</a>
             </li>
             <li class="list-item">
               <button class="btn-header">Get a Quote</button>
@@ -111,7 +111,7 @@
         </div>
       </section>
       <!-- PROJECT GALLERY -->
-      <section class="project-gallery-section">
+      <!-- <section class="project-gallery-section">
         <div class="project-section">
           <ul class="project-gallery-list-inst-yan">
             <a
@@ -198,8 +198,8 @@
             </div>
           </div>
         </div>
-      </section>
-      <!-- <section class="section-mobile-gallery">
+      </section> -->
+      <section class="section-mobile-gallery" id="gallery">
         <div class="mobile-gallery">
           <ul class="mobile-project-gallery-list-inst-yan">
             <a
@@ -351,9 +351,9 @@
             <li><button class="mobile-gallery-btn">Get a Quote</button></li>
           </ul>
         </div>
-      </section> -->
+      </section>
       <!-- SERVICES WE PROVIDE -->
-      <section class="services-we-provide-section">
+      <section class="services-we-provide-section" id="services">
         <div class="services-we-provide">
           <div>
             <div class="title-text-services-we-provide">
@@ -459,7 +459,7 @@
         </div>
       </section>
       <!-- WHY WOULD YOU CHOOSE US -->
-      <section class="why-would-you-choose-us-section">
+      <section class="why-would-you-choose-us-section" id="why-would-you-choose-us">
         <div class="why-would-you-choose-us">
           <div class="title-text-team-photo">
             <div class="title-text-why-would-you-choose-us">
@@ -572,7 +572,7 @@
         </div>
       </section>
       <!-- LET’S WORK TOGETHER -->
-      <section class="let’s-work-together-section">
+      <section class="let’s-work-together-section" >
         <div class="let’s-work-together">
           <div class="let’s-work-together-container">
             <div>
@@ -717,5 +717,20 @@
         </div>
       </div>
     </footer>
+    <!-- MODAL WINDOW -->
+    <div class="modal is-open">
+      <div class="modal-container">
+        <nav class="nav-modal">
+          <ul class="list-modal">
+            <li class="list-modal-link"><a class="modal-item-link" href="#header">Home</a></li>
+            <li class="list-modal-link"><a class="modal-item-link" href="#gallery">Projects</a></li>
+            <li class="list-modal-link"><a class="modal-item-link" href="#gallery">Gallery</a></li>
+            <li class="list-modal-link"><a class="modal-item-link" href="#services">Services</a></li>
+            <li class="list-modal-link"><a class="modal-item-link" href="#why-would-you-choose-us">Why Us</a></li>
+            <li class="list-modal-link"><a class="modal-item-link" href="#reviews">Reviews</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
   </body>
 </html>
